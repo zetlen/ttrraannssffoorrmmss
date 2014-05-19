@@ -42,7 +42,8 @@ ttrrraaaaannsfforrrrrrmm.lblb('*');
 // removes vowels inside all text in all elements
 
 ttrrraaaannsfforrrrrrmmmmmm.lblb('li.navitem', String.fromCharCode(9731));
-// removes vowels inside all text in all li elements with class 'navitem' and replaces them with unicode snowman
+// removes vowels inside all text in all li elements with class 'navitem'
+// and replaces them with unicode snowman
 ```
 
 ### lprn()
