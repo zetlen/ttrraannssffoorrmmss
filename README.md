@@ -43,6 +43,7 @@ ttrrraaaaannsfforrrrrrmm.lblb('*');
 
 ttrrraaaannsfforrrrrrmmmmmm.lblb('li.navitem', String.fromCharCode(9731));
 // removes vowels inside all text in all li elements with class 'navitem' and replaces them with unicode snowman
+```
 
 ### lprn()
 violate the sacred boundary between the internet and "real life" by printing a web page and bringing its content into the physical world
