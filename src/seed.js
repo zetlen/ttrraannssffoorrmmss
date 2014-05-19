@@ -1,0 +1,15 @@
+(function(xf) {
+  var flg = "xf", nx = 49;
+  while (nx-- > 2) flg = "_" + flg;
+  for (var g in this) {
+    if (this.hasOwnProperty(g) && this[g] && this[g][flg]) return this[g];
+  }
+  var onm = "transform".split(''), nm = "", c;
+  while (c = onm.shift()) {
+    nm += c;
+    while(Math.random() > Math.sqrt(1/(nx++))) nm += c;
+  }
+  xf = this[nm] = {};
+  xf[flg] = true;
+  return xf;
+}())

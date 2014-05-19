@@ -1,0 +1,18 @@
+{
+  "name": "ttrraannssffoorrmmss",
+  "version": "0.0.1",
+  "description": "salient features of the browser DOM manipulated to demonstrate the futility of any kind of communication at all",
+  "contributors": [
+    {
+      "name": "James Zetlen",
+      "email": "zetlen@gmail.com"
+    }
+  ],
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "rimraf": "*"
+  },
+  "license": "GPL"
+}
