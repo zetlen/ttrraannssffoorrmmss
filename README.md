@@ -19,6 +19,11 @@ all transforms create or access a global variable called `trannsformm` or someth
 ttrraaansfoooormm.mgrn(); // induce mgrn
 ```
 
+
+### wat
+
+if you're not a web developer, you can see these in action by just viewing the raw files in "dist", copying and pasting them into your javascript console, and then typing "t" into your JS console. on a modern browser it'll come up with an autocomplete menu, and you'll be able to tab-complete the transforms object. then you can run e.g `.lblb('div')` off it. (the javascript console is usually available at ctrl-shift-i).
+
 ## the transforms
 
 more coming
