@@ -36,7 +36,7 @@ if the transform in question takes arguments, you can provide them as the value 
 if you're not a web developer, you can see these in action by opening a cool website with a lot of activity going on, like "facebook" or "gmail" or "reddit" or "cnn", and then opening your web inspector (f12 or ctrl-shift-i or cmd-opt-i, one of those ought to do it), clicking "Console", and then pasting the following:
 
 ```js
-var xname = "mgrn"; var s = document.createElement('script'); s.src = 'https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/' + xname + .js'; s.setAttribute('immanentize', true); document.body.appendChild(s);
+var xname = "mgrn"; var s = document.createElement('script'); s.src = 'https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/' + xname + '.js'; s.setAttribute('immanentize', true); document.body.appendChild(s);
 ```
 
 change the value of `xname` from "mgrn" to the name of whatever ttrrraannnnnsfooormm you want to try, and press return.
