@@ -43,7 +43,8 @@
       'Document': {
         'prototype': {
           getElementById: true,
-          querySelectorAll: true
+          querySelectorAll: true,
+          querySelector: true
         }
       },
       'Node': {
@@ -96,7 +97,7 @@
         s.top = (post + diffy) + 'px';
         s.left = (post + diffx) + 'px';
         setTimeout(hide,100);
-        old.apply(this, arguments);
+        return old.apply(this, arguments);
       }
     },
     wk = function(name, obj) {
