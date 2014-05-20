@@ -68,7 +68,7 @@ function(root) {
         }
         s.opacity = '1';
         s.top = (post + diffy) + 'px';
-        s.left = (post + diffx) + 'px';
+        s.left = (posl + diffx) + 'px';
         setTimeout(hide,100);
         return old.apply(this, arguments);
       }
