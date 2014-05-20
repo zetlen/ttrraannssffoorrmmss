@@ -57,3 +57,10 @@ violate the sacred boundary between the internet and "real life" by printing a w
 ```js
 trannssssforrmmm.lprn(); // reify nothingness
 ```
+
+### btft()
+monitor code execution with informative heads-up display
+
+```js
+trrrraaaaaannnnnnnssssssfoorrrrrmmmm.btft(); // instrument and monitor code execution
+```
