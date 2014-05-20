@@ -72,8 +72,8 @@
           clr = '#' + Math.floor(Math.random()*16777216).toString(16),
           posl = Math.random() * (document.documentElement.clientWidth - (snd.length * 40)),
           post = Math.random() * (document.documentElement.clientHeight - 50),
-          diffx = Math.random() > 0.5 ? 1 : -1,
-          diffy = Math.random() > 0.5 ? 1 : -1,
+          diffx = Math.random() > 0.5 ? 3 : -3,
+          diffy = Math.random() > 0.5 ? 3 : -3,
           elm,
           s,
           hide = function() {
