@@ -1,0 +1,3 @@
+*   generalize articles and nouns to pronouns then proper nouns to actors
+*   pointer gravity--things move very slightly towards it
+*   duckpunch colors if style rules can be modified in place
