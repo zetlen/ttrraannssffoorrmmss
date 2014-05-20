@@ -1,4 +1,4 @@
-(function(root){
+function(root){
 
   var globalCss = '\
   @keyframes sizz {\
@@ -104,9 +104,9 @@ var ratio = 1.7014652014652014,
         'bottom',
         'right'
       ]
-    ],
+    ];
 
-    mgrn = root.mgrn = function() {
+    return function() {
 
       if (aura) {
         aura.parentNode.removeChild(aura);
@@ -153,4 +153,4 @@ var ratio = 1.7014652014652014,
 
     };
 
-}(__SEED__));
+}

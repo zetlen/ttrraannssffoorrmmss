@@ -1,4 +1,4 @@
-(function(root) {
+function(root) {
 
   var onomatopoeias = 'paf,punch,nurt,zang,wack,voop,horf,ronch,flemm,poit,kunk,sloof,garsh,fwiss,merk,dronx,wiff,hing,splukk'.split(',').map(function(snd) {
     return snd.toUpperCase() + '!';
@@ -92,12 +92,12 @@
       transition: all 0.1s ease;\
       z-index: 999999999;\
       pointer-events: none;\
-    }',
-    btft = root.btft = function() {
+    }';
+    return function() {
       var style = document.createElement('style');
       style.appendChild(document.createTextNode(globalCSS));
       document.head.appendChild(style);
       wk('window', pnchs);
     };
   
-}(__SEED__))
+}

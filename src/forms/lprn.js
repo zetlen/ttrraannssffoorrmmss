@@ -1,4 +1,4 @@
-(function(root) {
+function() {
 
   var bs = document.body.style,
       ds = document.documentElement.style,
@@ -6,7 +6,7 @@
       step = final,
       intv = Math.floor(final * 0.015);
 
-      ease = root.fdease = function(x) {
+      ease = function(x) {
         return x*x*x;
       },
 
@@ -17,9 +17,9 @@
         bs['-webkit-transform'] = bs.transform = "rotateX(" + (30-(ease(c)*30)) + "deg) translateY(" + f/*(4 * f - 2 * final)*/ + "px)";
         bs['-webkit-filter'] = bs.filter = 'contrast(' + ((1-c)*4 + 1) + ') grayscale(' + (1-c) + ')';
         if (f) return setTimeout(feed, 750);
-      },
+      };
 
-      lprn = root.lprn = function() {
+      return function() {
         ds['-webkit-perspective'] = ds.perspective = "20000px";
         bs['-webkit-transform'] = bs.transform = "translateY(" + step + "px)";
         bs['box-shadow'] = "0 0 10px 1px rgba(0,0,0,0.15)";
@@ -30,4 +30,4 @@
         feed();
       }
 
-})(__SEED__);
+}

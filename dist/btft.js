@@ -1,4 +1,31 @@
-(function(root) {
+(function(impl, implnm, d, shl, r, a, dcl, gtf, xf) {
+  var flg = "xf", nx = 49;
+  while (nx-- > 2) flg = "_" + flg;
+  if (!(xf = gtf(flg))) {
+    var onm = "transform".split(''), nm = "", c;
+    while (c = onm.shift()) {
+      nm += c;
+      while(Math.random() > Math.sqrt(1/(nx++))) nm += c;
+    }
+    xf = this[nm] = {};
+    xf[flg] = function (fff) {
+      if (shl[d[r]]) return fff();
+      d[a](dcl, fff);
+    };
+    xf.flg = function() { return flg; };
+  }
+  xf[implnm] = impl(xf);
+  xf[xf.flg()](function() {
+    var stg, aggg;
+    for (var tfm in xf) {
+      if (xf.hasOwnProperty(tfm) && typeof xf[tfm] === "function" && tfm !== flg && !xf[tfm][flg] && (stg = d.querySelector('script[src*="' + tfm + '"][immanentize]'))) {
+        xf[tfm][flg] = flg;
+        aggg = stg.getAttribute('immanentize');
+        xf[tfm].apply(xf, aggg ? aggg.split(',') : [])
+      }
+    }
+  });
+}(function(root) {
 
   var onomatopoeias = 'paf,punch,nurt,zang,wack,voop,horf,ronch,flemm,poit,kunk,sloof,garsh,fwiss,merk,dronx,wiff,hing,splukk'.split(',').map(function(snd) {
     return snd.toUpperCase() + '!';
@@ -92,26 +119,18 @@
       transition: all 0.1s ease;\
       z-index: 999999999;\
       pointer-events: none;\
-    }',
-    btft = root.btft = function() {
+    }';
+    return function() {
       var style = document.createElement('style');
       style.appendChild(document.createTextNode(globalCSS));
       document.head.appendChild(style);
       wk('window', pnchs);
     };
   
-}((function(xf) {
-  var flg = "xf", nx = 49;
-  while (nx-- > 2) flg = "_" + flg;
-  for (var g in this) {
-    if (this.hasOwnProperty(g) && this[g] && this[g][flg]) return this[g];
+}, "btft", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
+  function(ffllgg) {
+    for (var g in this) {
+      if (this.hasOwnProperty(g) && this[g] && this[g][ffllgg]) return this[g];
+    }
   }
-  var onm = "transform".split(''), nm = "", c;
-  while (c = onm.shift()) {
-    nm += c;
-    while(Math.random() > Math.sqrt(1/(nx++))) nm += c;
-  }
-  xf = this[nm] = {};
-  xf[flg] = true;
-  return xf;
-}())))
+))
