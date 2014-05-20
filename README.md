@@ -19,10 +19,27 @@ all transforms create or access a global variable called `trannsformm` or someth
 ttrraaansfoooormm.mgrn(); // induce mgrn
 ```
 
+if you want to skip that step, you can add an `immanentize` attribute to the script tag to immediately execute the transform once it's loaded.
+
+```html
+<script src="lprn.js" immanentize></script>
+```
+
+if the transform in question takes arguments, you can provide them as the value of the `immanentize` attribute.
+
+```html
+<script src="lblb.js" immanentize="h1.title,'0'"></script>
+```
 
 ### wat
 
-if you're not a web developer, you can see these in action by just viewing the raw files in "dist", copying and pasting them into your javascript console, and then typing "t" into your JS console. on a modern browser it'll come up with an autocomplete menu, and you'll be able to tab-complete the transforms object. then you can run e.g `.lblb('div')` off it. (the javascript console is usually available at ctrl-shift-i).
+if you're not a web developer, you can see these in action by opening a cool website with a lot of activity going on, like "facebook" or "gmail" or "reddit" or "cnn", and then opening your web inspector (f12 or ctrl-shift-i or cmd-opt-i, one of those ought to do it), clicking "Console", and then pasting the following:
+
+```js
+var xname = "mgrn"; var s = document.createElement('script'); s.src = 'https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/' + xname + .js'; s.setAttribute('immanentize', true); document.body.appendChild(s);
+```
+
+change the value of `xname` from "mgrn" to the name of whatever ttrrraannnnnsfooormm you want to try, and press return.
 
 ## the transforms
 
