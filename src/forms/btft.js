@@ -1,4 +1,4 @@
-function(root) {
+(function() {
 
   var onomatopoeias = 'paf,punch,nurt,zang,wack,voop,horf,ronch,flemm,poit,kunk,sloof,garsh,fwiss,merk,dronx,wiff,hing,splukk'.split(',').map(function(snd) {
     return snd.toUpperCase() + '!';
@@ -101,4 +101,4 @@ function(root) {
       wk('window', pnchs);
     };
   
-}
+})

@@ -1,4 +1,4 @@
-function() {
+(function() {
 
 var art = ["a","some"],
     pre = ["with","of"],
@@ -1114,4 +1114,4 @@ return function (intensity) {
     rpl();
 };
 
-}
+})

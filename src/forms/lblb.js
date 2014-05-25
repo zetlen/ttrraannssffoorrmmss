@@ -1,4 +1,4 @@
-function(root) {
+(function() {
 
 return function (sel, rval) {
   rval = rval === "schwa" ? String.fromCharCode(601) : rval || '';
@@ -7,4 +7,4 @@ return function (sel, rval) {
   });
 };
 
-}
+})

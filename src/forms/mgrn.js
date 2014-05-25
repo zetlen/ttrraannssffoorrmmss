@@ -1,4 +1,4 @@
-function(root){
+(function(){
 
   var globalCss = '\
   @keyframes sizz {\
@@ -153,4 +153,4 @@ var ratio = 1.7014652014652014,
 
     };
 
-}
+})

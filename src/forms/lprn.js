@@ -1,4 +1,4 @@
-function() {
+(function() {
 
   var bs = document.body.style,
       ds = document.documentElement.style,
@@ -30,4 +30,4 @@ function() {
         feed();
       }
 
-}
+})
