@@ -27,8 +27,13 @@
   });
 }(__IMPL__, __NAME__, document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
   function(ffllgg) {
+    var ts = Object.prototype.toString,
+        ig = {
+          "[object global]": true,
+          "[object Window]": true
+        };
     for (var g in this) {
-      if (this.hasOwnProperty(g) && this[g] && this[g][ffllgg]) return this[g];
+      if (this.hasOwnProperty(g) && this[g] && !(ts.call(this[g]) in ig) && this[g][ffllgg]) return this[g];
     }
   }
 ))
