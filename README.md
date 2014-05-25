@@ -33,7 +33,7 @@ if the transform in question takes arguments, you can provide them as the value 
 
 ### wat
 
-if you're not a web developer, you can see these in action by grabbing one from the [src/forms](tree/master/src/forms) directory. click in there, click the one you want to try, and then click "raw". copy the file contents. open a cool website with a lot of activity going on, like "facebook" or "gmail" or "reddit" or "cnn", and then opening your web inspector (f12 or ctrl-shift-i or cmd-opt-i, one of those ought to do it), clicking "Console", and then paste the file contents. *before pressing enter*, add the following:
+if you're not a web developer, you can see these in action by grabbing one from the [src/forms](src/forms) directory. click in there, click the one you want to try, and then click "raw". copy the file contents. open a cool website with a lot of activity going on, like "facebook" or "gmail" or "reddit" or "cnn", and then opening your web inspector (f12 or ctrl-shift-i or cmd-opt-i, one of those ought to do it), clicking "Console", and then paste the file contents. *before pressing enter*, add the following:
 
 ```js
 ()()
@@ -54,8 +54,8 @@ usage:
 ttrraannnnsformm.mgrn(); // induce mgrn
 ```
 
-[src for console paste](tree/master/src/forms/mgrn.js)
-[src for professional use](tree/master/dist/mgrn.js)
+*  [src for console paste](src/forms/mgrn.js)
+*  [src for professional use](dist/mgrn.js)
 
 ### lblb(selector, replacement)
 vowel removal and/or replacement
@@ -71,8 +71,8 @@ ttrrraaaannsfforrrrrrmmmmmm.lblb('li.navitem', String.fromCharCode(9731));
 // and replaces them with unicode snowman
 ```
 
-[src for console paste](tree/master/src/forms/lblb.js)
-[src for professional use](tree/master/dist/lblb.js)
+*  [src for console paste](src/forms/lblb.js)
+*  [src for professional use](dist/lblb.js)
 
 
 ### lprn()
@@ -81,8 +81,8 @@ violate the sacred boundary between the internet and "real life" by printing a w
 ```js
 trannssssforrmmm.lprn(); // reify nothingness
 ```
-[src for console paste](tree/master/src/forms/lprn.js)
-[src for professional use](tree/master/dist/lprn.js)
+*  [src for console paste](src/forms/lprn.js)
+*  [src for professional use](dist/lprn.js)
 
 
 ### btft()
@@ -92,8 +92,8 @@ monitor code execution with informative heads-up display
 trrrraaaaaannnnnnnssssssfoorrrrrmmmm.btft(); // instrument and monitor code execution
 ```
 
-[src for console paste](tree/master/src/forms/btft.js)
-[src for professional use](tree/master/dist/btft.js)
+*  [src for console paste](src/forms/btft.js)
+*  [src for professional use](dist/btft.js)
 
 
 ### gnrl(intensity)
@@ -105,5 +105,5 @@ trannsssfoooorrrrrmmmmmmm.gnrl('MMMMDCXVI'); // generalize content at an intensi
 
 *warning: if left to execute too long, content will begin to become more specialized again*
 
-[src for console paste](tree/master/src/forms/gnrl.js)
-[src for professional use](tree/master/dist/gnrl.js)
+*  [src for console paste](src/forms/gnrl.js)
+*  [src for professional use](dist/gnrl.js)
