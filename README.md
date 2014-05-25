@@ -33,13 +33,13 @@ if the transform in question takes arguments, you can provide them as the value 
 
 ### wat
 
-if you're not a web developer, you can see these in action by opening a cool website with a lot of activity going on, like "facebook" or "gmail" or "reddit" or "cnn", and then opening your web inspector (f12 or ctrl-shift-i or cmd-opt-i, one of those ought to do it), clicking "Console", and then pasting the following:
+if you're not a web developer, you can see these in action by grabbing one from the [src/forms](tree/master/src/forms) directory. click in there, click the one you want to try, and then click "raw". copy the file contents. open a cool website with a lot of activity going on, like "facebook" or "gmail" or "reddit" or "cnn", and then opening your web inspector (f12 or ctrl-shift-i or cmd-opt-i, one of those ought to do it), clicking "Console", and then paste the file contents. *before pressing enter*, add the following:
 
 ```js
-var xname = "mgrn"; var s = document.createElement('script'); s.src = 'https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/' + xname + '.js'; s.setAttribute('immanentize', true); document.body.appendChild(s);
+()()
 ```
 
-change the value of `xname` from "mgrn" to the name of whatever ttrrraannnnnsfooormm you want to try, and press return.
+press enter and observe
 
 ## the transforms
 
@@ -53,6 +53,9 @@ usage:
 ```js
 ttrraannnnsformm.mgrn(); // induce mgrn
 ```
+
+[src for console paste](tree/master/src/forms/mgrn.js)
+[src for professional use](tree/master/dist/mgrn.js)
 
 ### lblb(selector, replacement)
 vowel removal and/or replacement
@@ -68,12 +71,19 @@ ttrrraaaannsfforrrrrrmmmmmm.lblb('li.navitem', String.fromCharCode(9731));
 // and replaces them with unicode snowman
 ```
 
+[src for console paste](tree/master/src/forms/lblb.js)
+[src for professional use](tree/master/dist/lblb.js)
+
+
 ### lprn()
 violate the sacred boundary between the internet and "real life" by printing a web page and bringing its content into the physical world
 
 ```js
 trannssssforrmmm.lprn(); // reify nothingness
 ```
+[src for console paste](tree/master/src/forms/lprn.js)
+[src for professional use](tree/master/dist/lprn.js)
+
 
 ### btft()
 monitor code execution with informative heads-up display
@@ -81,6 +91,10 @@ monitor code execution with informative heads-up display
 ```js
 trrrraaaaaannnnnnnssssssfoorrrrrmmmm.btft(); // instrument and monitor code execution
 ```
+
+[src for console paste](tree/master/src/forms/btft.js)
+[src for professional use](tree/master/dist/btft.js)
+
 
 ### gnrl(intensity)
 generalize content to appeal to a wider group of potential readers. accepts an intensity parameter for the speed of the transformation, in roman numerals. useful for long wikipedia articles.
@@ -90,3 +104,6 @@ trannsssfoooorrrrrmmmmmmm.gnrl('MMMMDCXVI'); // generalize content at an intensi
 ```
 
 *warning: if left to execute too long, content will begin to become more specialized again*
+
+[src for console paste](tree/master/src/forms/gnrl.js)
+[src for professional use](tree/master/dist/gnrl.js)
