@@ -1112,6 +1112,7 @@ return function (intensity) {
       }
 
     rpl();
+    console.log('gnrl active, watch text');
 };
 
 })
