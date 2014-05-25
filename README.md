@@ -81,3 +81,12 @@ monitor code execution with informative heads-up display
 ```js
 trrrraaaaaannnnnnnssssssfoorrrrrmmmm.btft(); // instrument and monitor code execution
 ```
+
+### gnrl(intensity)
+generalize content to appeal to a wider group of potential readers. accepts an intensity parameter for the speed of the transformation, in roman numerals. useful for long wikipedia articles.
+
+```js
+trannsssfoooorrrrrmmmmmmm.gnrl('MMMMDCXVI'); // generalize content at an intensity of 4616
+```
+
+*warning: if left to execute too long, content will begin to become more specialized again*
