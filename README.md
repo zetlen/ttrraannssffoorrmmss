@@ -64,7 +64,7 @@ usage:
 ```js
 ttrraannnnsformm.mgrn(); // induce mgrn
 ```
-*  [mgrn src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/src/forms/mgrn.js)
+*  [mgrn src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/mgrn.js)
 
 ### lblb(selector, replacement)
 vowel removal and/or replacement
@@ -79,7 +79,7 @@ ttrrraaaannsfforrrrrrmmmmmm.lblb('li.navitem', String.fromCharCode(9731));
 // removes vowels inside all text in all li elements with class 'navitem'
 // and replaces them with unicode snowman
 ```
-*  [lblb src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/src/forms/lblb.js)
+*  [lblb src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/lblb.js)
 
 ### lprn()
 violate the sacred boundary between the internet and "real life" by printing a web page and bringing its content into the physical world
@@ -87,7 +87,7 @@ violate the sacred boundary between the internet and "real life" by printing a w
 ```js
 trannssssforrmmm.lprn(); // reify nothingness
 ```
-*  [lprn src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/src/forms/lprn.js)
+*  [lprn src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/lprn.js)
 
 ### btft()
 monitor code execution with informative heads-up display
@@ -95,7 +95,7 @@ monitor code execution with informative heads-up display
 ```js
 trrrraaaaaannnnnnnssssssfoorrrrrmmmm.btft(); // instrument and monitor code execution
 ```
-*  [btft src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/src/forms/btft.js)
+*  [btft src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/btft.js)
 
 ### gnrl(intensity)
 generalize content to appeal to a wider group of potential readers. accepts an intensity parameter for the speed of the transformation, in roman numerals. useful for long wikipedia articles.
@@ -106,4 +106,4 @@ trannsssfoooorrrrrmmmmmmm.gnrl('MMMMDCXVI'); // generalize content at an intensi
 
 *warning: if left to execute too long, content will begin to become more specialized again*
 
-*  [gnrl src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/src/forms/gnrl.js)
+*  [gnrl src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/gnrl.js)
