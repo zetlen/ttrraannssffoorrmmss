@@ -6,7 +6,49 @@ var art = ["a","some"],
     adv = ["really","kinda","sorta"],
     ver = ["go","get","do","give"],
     nou = ["thing","stuff","whatever"],
-    same = ["Jon Lovitz","Cybill Shepherd","Treat Williams","Forest Whitaker","Soledad O'Brien"],
+    same = ["George Ade",
+"Leon Ames",
+"Anne Baxter",
+"Larry Bird",
+"Bill Blass",
+"Hoagy Carmichael",
+"James Dean",
+"Eugene V. Debs",
+"Theodore Dreiser",
+"Bernard F. Gimbel",
+"Virgil Grissom",
+"Alfred Bertram Guthrie",
+"Phil Harris",
+"John Milton Hay",
+"James R. Hoffa",
+"Michael Jackson",
+"Buck Jones",
+"David Letterman",
+"Eli Lilly",
+"Carole Lombard",
+"Shelley Long",
+"Marjorie Main",
+"James McCracken",
+"John Cougar Mellencamp",
+"Joaquin Miller",
+"Andrew J. Moyer",
+"Paul Osborn",
+"Cole Porter",
+"Ernest Taylor Pyle",
+"J. Danforth Quayle",
+"James Whitcomb Riley",
+"Ned Rorem",
+"Red Skelton",
+"Rex Stout",
+"Booth Tarkington",
+"Twyla Tharp",
+"Forrest Tucker",
+"Harold C. Urey",
+"Kurt Vonnegut, Jr.",
+"Jessamyn West",
+"Wendell Willkie",
+"Wilbur Wright",
+"Willis Van Devanter"],
 
 ws = {
 "a": art,
@@ -1013,7 +1055,7 @@ cl = l,
 
 frr = function(s){
     s= String(s).toUpperCase();
-    if(s.length> 15 ||  /[^MDCLXVI]/.test(s)) return NaN;
+    if(s.length> 40 ||  /[^MDCLXVI]/.test(s)) return NaN;
     var L= s.length,sum= 0,i= 0,next,val,
     R={
         M:1000,D:500,C:100,L:50,X:10,V:5,I:1
@@ -1035,7 +1077,7 @@ gW = function() {
     i = Math.floor(Math.random()*l)
     w = wa[i];
     p = ws[w];
-    if (p !== same || Math.random() > l/cl) {
+    if (p !== same || Math.random() > ez(l/cl)) {
       wo = [w, p];
       l--;
       wa.splice(i, 1);
@@ -1043,10 +1085,12 @@ gW = function() {
     }
   }
   return wo;
-}
+},
+
+ez = function (t) { return 1+(--t)*t*t*t*t };
 
 return function (intensity) {
-  var ms = 36000000 / ( frr(intensity) || 9000 ), 
+  var ms = 3600000 / ( frr(intensity) || 9000 ), 
       b = document.createNodeIterator(document.body, NodeFilter.SHOW_TEXT),
       mths = {
         previousNode: "nextNode",
