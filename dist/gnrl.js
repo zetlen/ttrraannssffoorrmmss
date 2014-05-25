@@ -27,24 +27,22 @@
   });
 }(function() {
 
-var same = 0,
-    art = ['a','some'],
-    pre = ['with','of'],
-    adj = ['nice','good','cool','okay'],
-    adv = ['really','kinda','sorta'],
-    ver = ['go','get','do','give'],
-    nou = ['thing','stuff','whatever'],
-    pno = ['Jon Lovitz','Cybill Shepherd','Treat Williams','Forest Whitaker','Soledad O\'Brien'],
+var art = ["a","some"],
+    pre = ["with","of"],
+    adj = ["nice","good","cool","okay"],
+    adv = ["really","kinda","sorta"],
+    ver = ["go","get","do","give"],
+    nou = ["thing","stuff","whatever"],
+    same = ["Jon Lovitz","Cybill Shepherd","Treat Williams","Forest Whitaker","Soledad O'Brien"],
 
 ws = {
-
 "a": art,
 "about": pre,
 "above": pre,
 "across": pre,
 "act": ver,
 "active": adj, 
-"activity": nou
+"activity": nou,
 "add": ver,
 "afraid": adj,
 "after": pre,
@@ -329,7 +327,7 @@ ws = {
 "fault": nou,
 "fear": nou,
 "feed": ver,
-"feel": ver
+"feel": ver,
 "female": adj,
 "fever": nou,
 "few": adj,
@@ -470,7 +468,7 @@ ws = {
 "introduce": ver, 
 "invent": ver,
 "invite": ver,
-"iron": nou.
+"iron": nou,
 "is": same,
 "island": nou,
 "it": same,
@@ -505,491 +503,491 @@ ws = {
 "leaf": nou,
 "learn": ver,
 "leave": ver,
-"left": 
-"leg": 
-"lend": 
-"length": 
-"less": 
-"lesson": 
-"let": 
-"letter": 
-"library": 
-"lie": 
-"life": 
-"light": 
-"like": 
-"lion": 
-"lip": 
-"list": 
-"listen": 
-"little": 
-"live": 
-"lock": 
-"lonely": 
-"long": 
-"look": 
-"lose": 
-"lot": 
-"love": 
-"low": 
-"lower": 
-"luck": 
-"machine": 
-"main": 
-"make": 
-"male": 
-"man": 
-"many": 
-"map": 
-"mark": 
-"market": 
-"marry": 
-"matter": 
-"may": 
-"me": 
-"meal": 
-"mean": 
-"measure": 
-"meat": 
-"medicine": 
-"meet": 
-"member": 
-"mention": 
-"method": 
-"middle": 
-"milk": 
-"million": 
-"mind": 
-"minute": 
-"miss": 
-"mistake": 
-"mix": 
-"model": 
-"modern": 
-"moment": 
-"money": 
-"monkey": 
-"month": 
-"moon": 
-"more": 
-"morning": 
-"most": 
-"mother": 
-"mountain": 
-"mouth": 
-"move": 
-"much": 
-"music": 
-"must": 
-"my": 
-"name": 
-"narrow": 
-"nation": 
-"nature": 
-"near": 
-"nearly": 
-"neck": 
-"need": 
-"needle": 
-"neighbour": 
-"neither": 
-"net": 
-"never": 
-"new": 
-"news": 
-"newspaper": 
-"next": 
-"nice": 
-"night": 
-"nine": 
-"no": 
-"noble": 
-"noise": 
-"none": 
-"nor": 
-"north": 
-"nose": 
-"not": 
-"nothing": 
-"notice": 
-"now": 
-"number": 
-"obey": 
-"object": 
-"ocean": 
-"of": 
-"off": 
-"offer": 
-"office": 
-"often": 
-"oil": 
-"old": 
-"on": 
-"one": 
-"only": 
-"open": 
-"opposite": 
-"or": 
-"orange": 
-"order": 
-"other": 
-"our": 
-"out": 
-"outside": 
-"over": 
-"own": 
-"page": 
-"pain": 
-"paint": 
-"pair": 
-"pan": 
-"paper": 
-"parent": 
-"park": 
-"part": 
-"partner": 
-"party": 
-"pass": 
-"past": 
-"path": 
-"pay": 
-"peace": 
-"pen": 
-"pencil": 
-"people": 
-"pepper": 
-"per": 
-"perfect": 
-"period": 
-"person": 
-"petrol": 
-"photograph": 
-"piano": 
-"pick": 
-"picture": 
-"piece": 
-"pig": 
-"pin": 
-"pink": 
-"place": 
-"plane": 
-"plant": 
-"plastic": 
-"plate": 
-"play": 
-"please": 
-"pleased": 
-"plenty": 
-"pocket": 
-"point": 
-"poison": 
-"police": 
-"polite": 
-"pool": 
-"poor": 
-"popular": 
-"position": 
-"possible": 
-"potato": 
-"pour": 
-"power": 
-"present": 
-"press": 
-"pretty": 
-"prevent": 
-"price": 
-"prince": 
-"prison": 
-"private": 
-"prize": 
-"probably": 
-"problem": 
-"produce": 
-"promise": 
-"proper": 
-"protect": 
-"provide": 
-"public": 
-"pull": 
-"punish": 
-"pupil": 
-"push": 
-"put": 
-"queen": 
-"question": 
-"quick": 
-"quiet": 
-"quite": 
-"radio": 
-"rain": 
-"rainy": 
-"raise": 
-"reach": 
-"read": 
-"ready": 
-"real": 
-"really": 
-"receive": 
-"record": 
-"red": 
-"remember": 
-"remind": 
-"remove": 
-"rent": 
-"repair": 
-"repeat": 
-"reply": 
-"report": 
-"rest": 
-"restaurant": 
-"result": 
-"return": 
-"rice": 
-"rich": 
-"ride": 
-"right": 
-"ring": 
-"rise": 
-"road": 
-"rob": 
-"rock": 
-"room": 
-"round": 
-"rubber": 
-"rude": 
-"rule": 
-"ruler": 
-"run": 
-"rush": 
-"sad": 
-"safe": 
-"sail": 
-"salt": 
-"same": 
-"sand": 
-"save": 
-"say": 
-"school": 
-"science": 
-"scissors": 
-"search": 
-"seat": 
-"second": 
-"see": 
-"seem": 
-"sell": 
-"send": 
-"sentence": 
-"serve": 
-"seven": 
-"several": 
-"sex": 
-"shade": 
-"shadow": 
-"shake": 
-"shape": 
-"share": 
-"sharp": 
-"she": 
-"sheep": 
-"sheet": 
-"shelf": 
-"shine": 
-"ship": 
-"shirt": 
-"shoe": 
-"shoot": 
-"shop": 
-"short": 
-"should": 
-"shoulder": 
-"shout": 
-"show": 
-"sick": 
-"side": 
-"signal": 
-"silence": 
-"silly": 
-"silver": 
-"similar": 
-"simple": 
-"since": 
-"sing": 
-"single": 
-"sink": 
-"sister": 
-"sit": 
-"six": 
-"size": 
-"skill": 
-"skin": 
-"skirt": 
-"sky": 
-"sleep": 
-"slip": 
-"slow": 
-"small": 
-"smell": 
-"smile": 
-"smoke": 
-"snow": 
-"so": 
-"soap": 
-"sock": 
-"soft": 
-"some": 
-"someone": 
-"something": 
-"sometimes": 
-"son": 
-"soon": 
-"sorry": 
-"sound": 
-"soup": 
-"south": 
-"space": 
-"speak": 
-"special": 
-"speed": 
-"spell": 
-"spend": 
-"spoon": 
-"sport": 
-"spread": 
-"spring": 
-"square": 
-"stamp": 
-"stand": 
-"star": 
-"start": 
-"station": 
-"stay": 
-"steal": 
-"steam": 
-"step": 
-"still": 
-"stomach": 
-"stone": 
-"stop": 
-"store": 
-"storm": 
-"story": 
-"strange": 
-"street": 
-"strong": 
-"structure": 
-"student": 
-"study": 
-"stupid": 
-"subject": 
-"substance": 
-"successful": 
-"such": 
-"sudden": 
-"sugar": 
-"suitable": 
-"summer": 
-"sun": 
-"sunny": 
-"support": 
-"sure": 
-"surprise": 
-"sweet": 
-"swim": 
-"sword": 
-"table": 
-"take": 
-"talk": 
-"tall": 
-"taste": 
-"taxi": 
-"tea": 
-"teach": 
-"team": 
-"tear": 
-"telephone": 
-"television": 
-"tell": 
-"ten": 
-"tennis": 
-"terrible": 
-"test": 
-"than": 
-"that": 
-"the": 
-"their": 
-"then": 
-"there": 
-"therefore": 
-"these": 
-"thick": 
-"thin": 
-"thing": 
-"think": 
-"third": 
-"this": 
-"though": 
-"threat": 
-"three": 
-"tidy": 
-"tie": 
-"title": 
-"to": 
-"today": 
-"toe": 
-"together": 
-"tomorrow": 
-"tonight": 
-"too": 
-"tool": 
-"tooth": 
-"top": 
-"total": 
-"touch": 
-"town": 
-"train": 
-"tram": 
-"travel": 
-"tree": 
-"trouble": 
-"true": 
-"trust": 
-"try": 
-"turn": 
-"twice": 
-"type": 
-"uncle": 
-"under": 
-"understand": 
-"unit": 
-"until": 
-"up": 
-"use": 
-"useful": 
-"usual": 
-"usually": 
-"vegetable": 
-"very": 
-"village": 
-"visit": 
-"voice": 
-"wait": 
-"wake": 
-"walk": 
-"want": 
-"warm": 
-"wash": 
-"waste": 
-"watch": 
-"water": 
-"way": 
-"we": 
-"weak": 
-"wear": 
-"weather": 
-"wedding": 
-"week": 
-"weight": 
+"left": ver,
+"leg": nou,
+"lend": ver,
+"length": nou,
+"less": art,
+"lesson": nou,
+"let": same,
+"letter": nou,
+"library": nou,
+"lie": nou,
+"life": nou,
+"light": nou,
+"like": same,
+"lion": nou,
+"lip": nou,
+"list": nou,
+"listen": ver,
+"little": adj,
+"live": ver,
+"lock": ver,
+"lonely": adj,
+"long": adj,
+"look": ver,
+"lose": ver,
+"lot": same,
+"love": ver,
+"low": adj,
+"lower": ver,
+"luck": nou,
+"machine": nou,
+"main": adj,
+"make": same,
+"male": adj,
+"man": nou,
+"many": same,
+"map": nou,
+"mark": nou,
+"market": nou,
+"marry": ver,
+"matter": ver,
+"may": same,
+"me": same,
+"meal": nou,
+"mean": ver,
+"measure": ver,
+"meat": nou,
+"medicine": nou,
+"meet": ver,
+"member": nou,
+"mention": ver,
+"method": nou,
+"middle": nou,
+"milk": nou,
+"million": art,
+"mind": nou,
+"minute": nou,
+"miss": ver,
+"mistake": nou,
+"mix": ver,
+"model": nou,
+"modern": adj,
+"moment": nou,
+"money": nou,
+"monkey": nou,
+"month": nou,
+"moon": nou,
+"more": same,
+"morning": nou,
+"most": same,
+"mother": nou,
+"mountain": nou,
+"mouth": nou,
+"move": ver,
+"much": same,
+"music": nou,
+"must": same,
+"my": same,
+"name": nou,
+"narrow": adj,
+"nation": nou,
+"nature": nou,
+"near": same,
+"nearly": adj,
+"neck": nou,
+"need": ver,
+"needle": nou,
+"neighbour": nou,
+"neither": art,
+"net": nou,
+"never": art,
+"new": adj,
+"news": nou,
+"newspaper": nou, 
+"next": adj,
+"nice": same,
+"night": nou,
+"nine": art,
+"no": same,
+"noble": adj,
+"noise": nou,
+"none": same,
+"nor": same,
+"north": nou,
+"nose": nou,
+"not": same,
+"nothing": nou,
+"notice": ver,
+"now": same,
+"number": nou,
+"obey": ver,
+"object": nou,
+"ocean": same,
+"of": same,
+"off": same,
+"offer": ver,
+"office": nou,
+"often": adj,
+"oil": nou,
+"old": adj,
+"on": same,
+"one": same,
+"only": same,
+"open": ver,
+"opposite": adj,
+"or": same,
+"orange": adj,
+"order": nou,
+"other": same,
+"our": same,
+"out": adj,
+"outside": adv,
+"over": pre,
+"own": ver,
+"page": nou,
+"pain": nou,
+"paint": ver,
+"pair": nou,
+"pan": nou,
+"paper": nou,
+"parent": nou,
+"park": ver,
+"part": nou,
+"partner": nou,
+"party": nou,
+"pass": ver,
+"past": nou,
+"path": nou,
+"pay": ver,
+"peace": nou,
+"pen": nou,
+"pencil": nou,
+"people": same,
+"pepper": ver,
+"per": same,
+"perfect": adj,
+"period": nou,
+"person": same,
+"petrol": nou,
+"photograph": nou,
+"piano": nou,
+"pick": ver,
+"picture": nou,
+"piece": nou,
+"pig": nou,
+"pin": ver,
+"pink": adj,
+"place": same,
+"plane": nou,
+"plant": nou,
+"plastic": adj,
+"plate": nou,
+"play": ver,
+"please": ver,
+"pleased": adj,
+"plenty": nou,
+"pocket": nou,
+"point": nou,
+"poison": nou,
+"police": nou,
+"polite": adj,
+"pool": nou,
+"poor": adj,
+"popular": adj,
+"position": nou,
+"possible": adj,
+"potato": nou,
+"pour": ver,
+"power": nou,
+"present": adj,
+"press": nou,
+"pretty": adj,
+"prevent": ver,
+"price": nou,
+"prince": nou,
+"prison": nou,
+"private": adj,
+"prize": nou,
+"probably": adv,
+"problem": nou,
+"produce": ver,
+"promise": ver,
+"proper": adj,
+"protect": ver,
+"provide": ver,
+"public": adj,
+"pull": ver,
+"punish": ver,
+"pupil": nou,
+"push": ver,
+"put": same,
+"queen": nou,
+"question": nou,
+"quick": adj,
+"quiet": adj,
+"quite": adv,
+"radio": nou,
+"rain": nou,
+"rainy": adj,
+"raise": ver,
+"reach": ver,
+"read": ver,
+"ready": adj,
+"real": adj,
+"really": adv,
+"receive": ver,
+"record": nou,
+"red": adj,
+"remember": ver,
+"remind": ver,
+"remove": ver,
+"rent": ver,
+"repair": ver,
+"repeat": ver,
+"reply": ver,
+"report": nou,
+"rest": nou,
+"restaurant": nou,
+"result": nou,
+"return": ver,
+"rice": nou,
+"rich": adj,
+"ride": nou,
+"right": adj,
+"ring": ver,
+"rise": ver,
+"road": nou,
+"rob": ver,
+"rock": ver,
+"room": nou,
+"round": adj,
+"rubber": adj,
+"rude": adj,
+"rule": nou,
+"ruler": nou,
+"run": ver,
+"rush": ver,
+"sad": adj,
+"safe": adj,
+"sail": ver,
+"salt": nou,
+"same": same,
+"sand": nou,
+"save": ver,
+"say": ver,
+"school": nou,
+"science": nou,
+"scissors": nou,
+"search": ver,
+"seat": nou,
+"second": art,
+"see": ver,
+"seem": same,
+"sell": ver,
+"send": ver,
+"sentence": nou,
+"serve": ver,
+"seven": art,
+"several": art,
+"sex": nou,
+"shade": nou,
+"shadow": nou,
+"shake": nou,
+"shape": nou,
+"share": ver,
+"sharp": adj,
+"she": same,
+"sheep": nou,
+"sheet": nou,
+"shelf": nou,
+"shine": ver,
+"ship": nou,
+"shirt": nou,
+"shoe": nou,
+"shoot": ver,
+"shop": ver,
+"short": adj,
+"should": same,
+"shoulder": nou,
+"shout": ver,
+"show": ver,
+"sick": adj,
+"side": nou,
+"signal": nou,
+"silence": nou,
+"silly": adj,
+"silver": adj,
+"similar": adj,
+"simple": adj,
+"since": same,
+"sing": ver,
+"single": adj,
+"sink": ver,
+"sister": nou,
+"sit": ver,
+"six": art,
+"size": nou,
+"skill": nou,
+"skin": nou,
+"skirt": nou,
+"sky": nou,
+"sleep": nou,
+"slip": nou,
+"slow": adj,
+"small": adj,
+"smell": nou,
+"smile": nou,
+"smoke": nou,
+"snow": nou,
+"so": same,
+"soap": nou,
+"sock": nou,
+"soft": adj,
+"some": same,
+"someone": same,
+"something": same,
+"sometimes": same,
+"son": nou,
+"soon": adv,
+"sorry": adj,
+"sound": nou,
+"soup": nou,
+"south": adj,
+"space": nou,
+"speak": ver,
+"special": adj,
+"speed": nou,
+"spell": nou,
+"spend": ver,
+"spoon": nou,
+"sport": nou,
+"spread": ver,
+"spring": nou,
+"square": nou,
+"stamp": nou,
+"stand": ver,
+"star": nou,
+"start": ver,
+"station": nou,
+"stay": ver,
+"steal": ver,
+"steam": nou,
+"step": nou,
+"still": adv,
+"stomach": nou,
+"stone": nou,
+"stop": nou,
+"store": ver,
+"storm": nou,
+"story": nou,
+"strange": adj,
+"street": nou,
+"strong": adj,
+"structure": nou,
+"student": nou,
+"study": nou,
+"stupid": adj,
+"subject": nou,
+"substance": nou,
+"successful": adj,
+"such": same,
+"sudden": adj,
+"sugar": nou,
+"suitable": adj,
+"summer": nou,
+"sun": nou,
+"sunny": adj,
+"support": nou,
+"sure": adj,
+"surprise": nou,
+"sweet": adj,
+"swim": ver,
+"sword": nou,
+"table": nou,
+"take": ver,
+"talk": ver,
+"tall": adj,
+"taste": nou,
+"taxi": nou,
+"tea": nou,
+"teach": ver,
+"team": nou,
+"tear": ver,
+"telephone": nou, 
+"television": nou,
+"tell": ver,
+"ten": art,
+"tennis": nou,
+"terrible": adj,
+"test": nou,
+"than": same,
+"that": same,
+"the": same,
+"their": same,
+"then": same,
+"there": same,
+"therefore": pre,
+"these": same,
+"thick": adj,
+"thin": adj,
+"thing": same,
+"think": ver,
+"third": adj,
+"this": same,
+"though": same,
+"threat": nou,
+"three": art,
+"tidy": adj,
+"tie": ver,
+"title": nou,
+"to": same,
+"today": pre,
+"toe": ver,
+"together": adv,
+"tomorrow": adv,
+"tonight": adv,
+"too": same,
+"tool": nou,
+"tooth": nou,
+"top": nou,
+"total": adj,
+"touch": ver,
+"town": nou,
+"train": ver,
+"tram": nou,
+"travel": ver,
+"tree": nou,
+"trouble": nou,
+"true": adj,
+"trust": ver,
+"try": ver,
+"turn": ver,
+"twice": adv,
+"type": adj,
+"uncle": nou,
+"under": pre,
+"understand": ver, 
+"unit": nou,
+"until": pre,
+"up": pre,
+"use": ver,
+"useful": adj,
+"usual": adj,
+"usually": adv,
+"vegetable": nou,
+"very": same,
+"village": nou,
+"visit": ver,
+"voice": nou,
+"wait": ver,
+"wake": ver,
+"walk": ver,
+"want": ver,
+"warm": adj,
+"wash": nou,
+"waste": ver,
+"watch": ver,
+"water": nou,
+"way": nou,
+"we": same,
+"weak": ver,
+"wear": ver,
+"weather": nou,
+"wedding": nou,
+"week": nou,
+"weight": nou,
 "welcome": nou,
 "well": adv,
 "west": adj,
@@ -1025,7 +1023,7 @@ ws = {
 "worry": ver,
 "worst": adj,
 "write": ver,
-"wrong": asj,
+"wrong": adj,
 "year": nou,
 "yes": same,
 "yesterday": adv, 
@@ -1035,10 +1033,12 @@ ws = {
 "your": same,
 "zero": adj,
 "zoo": nou
-};
+},
+wa = Object.keys(ws),
+l = wa.length,
+cl = l,
 
-
-  var frr = function(s){
+frr = function(s){
     s= String(s).toUpperCase();
     if(s.length> 15 ||  /[^MDCLXVI]/.test(s)) return NaN;
     var L= s.length,sum= 0,i= 0,next,val,
@@ -1049,26 +1049,52 @@ ws = {
         val= s.charAt(i++);
         if(!R[val]) return NaN;
         val= R[val];
-        next= R[(s.charAt(i) || 'N')] || 0;
+        next= R[(s.charAt(i) || "N")] || 0;
         if(next> val) val*= -1;
         sum+= val;
     }
     return sum;
+},
+
+gW = function() {
+   var i,w,ww,wo,p;
+   while (!wo) {
+    i = Math.floor(Math.random()*l)
+    w = wa[i];
+    p = ws[w];
+    if (p !== same || Math.random() > l/cl) {
+      wo = [w, p];
+      l--;
+      wa.splice(i, 1);
+      delete ws[w];
+    }
+  }
+  return wo;
 }
 
 return function (intensity) {
   var ms = 36000000 / ( frr(intensity) || 9000 ), 
       b = document.createNodeIterator(document.body, NodeFilter.SHOW_TEXT),
-      c, 
-      a,
+      mths = {
+        previousNode: "nextNode",
+        nextNode: "previousNode"
+      },
+      mth = mths.previousNode,
 
       rpl = function() {
+        var c, wo = gW(),
+        pl = wo[1].length,
+        re = new RegExp("\\b" + wo[0] + "\\b","gi");
+        while (c = b[mth]()) {
+          c.nodeValue = c.nodeValue.replace(re, wo[1][Math.floor(Math.random()*pl)]);
+        }
+        if (l) {
+          mth = mths[mth];
+          setTimeout(rpl, ms);
+        }
+      }
 
-      },
-
-  return document.querySelectorAll(sel).forEach(function(node) {
-    for (var b = document.createTreeWalker(node, NodeFilter.SHOW_TEXT), c, a, d = /[aeiou]/gi; b.nextNode();) a = b.currentNode, c = a.nodeValue, a.nodeValue = c.replace(d, rval)
-  });
+    rpl();
 };
 
 }, "gnrl", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
