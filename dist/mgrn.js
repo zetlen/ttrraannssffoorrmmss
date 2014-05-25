@@ -169,6 +169,8 @@ var ratio = 1.7014652014652014,
       aura.style[dir[1]] = -offset + 'px';
       document.body.appendChild(aura);
 
+      console.log('mgrn induced, ' + dir[0] + ' ' + dir[1]);
+
       wiz();
 
       var borderProp = 'border-' + dir[0] + '-' + dir[1] + '-radius';

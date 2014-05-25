@@ -55,6 +55,7 @@
         bs.transition = "all 0.375s ease-out";
         window.scrollTo(0, final);
         feed();
+        console.log('lprn activated');
       }
 
 }), "lprn", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
