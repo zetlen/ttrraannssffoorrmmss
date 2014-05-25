@@ -37,6 +37,10 @@
     },
     cls = "btft",
     en = 'div',
+    lg = console.log,
+    log = function() {
+      lg.apply(console, arguments);
+    },
     bd = document.body,
     vvr = function(name, meth) {
       var obj = eval(name),
@@ -69,6 +73,7 @@
         s.opacity = '1';
         s.top = (post + diffy) + 'px';
         s.left = (posl + diffx) + 'px';
+        log(snd);
         setTimeout(hide,100);
         return old.apply(this, arguments);
       }
@@ -99,6 +104,7 @@
       style.appendChild(document.createTextNode(globalCSS));
       document.head.appendChild(style);
       wk('window', pnchs);
+      console.log('btft active, proceed');
     };
   
 })
