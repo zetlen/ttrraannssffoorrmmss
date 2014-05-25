@@ -1,4 +1,4 @@
-(function(impl, implnm, d, shl, r, a, dcl, gtf, xf) {
+(function(impl, implnm, d, shl, r, iflg, a, qs, ga, dcl, gtf, xf) {
   var flg = "xf", nx = 49;
   while (nx-- > 2) flg = "_" + flg;
   if (!(xf = gtf(flg))) {
@@ -18,9 +18,17 @@
   xf[xf.flg()](function() {
     var stg, aggg;
     for (var tfm in xf) {
-      if (xf.hasOwnProperty(tfm) && typeof xf[tfm] === "function" && tfm !== flg && !xf[tfm][flg] && (stg = d.querySelector('script[src*="' + tfm + '"][immanentize]'))) {
+      if (
+          xf.hasOwnProperty(tfm) && 
+          typeof xf[tfm] === "function" && 
+          tfm !== flg && 
+          !xf[tfm][flg] && 
+          (
+            (stg = d[qs]('script[src*="' + tfm + '"][' + iflg + ']')) && 
+            (aggg = stg[g](iflg)) || (aggg = this[iflg])
+          )
+         ) {
         xf[tfm][flg] = flg;
-        aggg = stg.getAttribute('immanentize');
         xf[tfm].apply(xf, aggg ? aggg.split(',') : [])
       }
     }
@@ -58,7 +66,7 @@
         console.log('lprn activated');
       }
 
-}), "lprn", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
+}), "lprn", document, { complete: true, loaded: true }, 'readyState', 'immanentize', 'addEventListener', 'querySelector','getAttribute','DOMContentLoaded',
   function(ffllgg) {
     var ts = Object.prototype.toString,
         ig = {
