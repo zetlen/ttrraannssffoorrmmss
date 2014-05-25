@@ -14,7 +14,7 @@
     };
     xf.flg = function() { return flg; };
   }
-  xf[implnm] = impl(xf);
+  xf[implnm] = impl();
   xf[xf.flg()](function() {
     var stg, aggg;
     for (var tfm in xf) {
@@ -25,7 +25,7 @@
       }
     }
   });
-}(function() {
+}((function() {
 
 var art = ["a","some"],
     pre = ["with","of"],
@@ -1141,7 +1141,7 @@ return function (intensity) {
     rpl();
 };
 
-}, "gnrl", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
+}), "gnrl", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
   function(ffllgg) {
     var ts = Object.prototype.toString,
         ig = {

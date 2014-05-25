@@ -14,7 +14,7 @@
     };
     xf.flg = function() { return flg; };
   }
-  xf[implnm] = impl(xf);
+  xf[implnm] = impl();
   xf[xf.flg()](function() {
     var stg, aggg;
     for (var tfm in xf) {
@@ -25,7 +25,7 @@
       }
     }
   });
-}(function() {
+}((function() {
 
   var bs = document.body.style,
       ds = document.documentElement.style,
@@ -57,7 +57,7 @@
         feed();
       }
 
-}, "lprn", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
+}), "lprn", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
   function(ffllgg) {
     var ts = Object.prototype.toString,
         ig = {

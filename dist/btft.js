@@ -14,7 +14,7 @@
     };
     xf.flg = function() { return flg; };
   }
-  xf[implnm] = impl(xf);
+  xf[implnm] = impl();
   xf[xf.flg()](function() {
     var stg, aggg;
     for (var tfm in xf) {
@@ -25,7 +25,7 @@
       }
     }
   });
-}(function(root) {
+}((function() {
 
   var onomatopoeias = 'paf,punch,nurt,zang,wack,voop,horf,ronch,flemm,poit,kunk,sloof,garsh,fwiss,merk,dronx,wiff,hing,splukk'.split(',').map(function(snd) {
     return snd.toUpperCase() + '!';
@@ -128,7 +128,7 @@
       wk('window', pnchs);
     };
   
-}, "btft", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
+}), "btft", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
   function(ffllgg) {
     var ts = Object.prototype.toString,
         ig = {

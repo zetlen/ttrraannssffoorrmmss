@@ -14,7 +14,7 @@
     };
     xf.flg = function() { return flg; };
   }
-  xf[implnm] = impl(xf);
+  xf[implnm] = impl();
   xf[xf.flg()](function() {
     var stg, aggg;
     for (var tfm in xf) {
@@ -25,7 +25,7 @@
       }
     }
   });
-}(function(root){
+}((function(){
 
   var globalCss = '\
   @keyframes sizz {\
@@ -180,7 +180,7 @@ var ratio = 1.7014652014652014,
 
     };
 
-}, "mgrn", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
+}), "mgrn", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
   function(ffllgg) {
     var ts = Object.prototype.toString,
         ig = {

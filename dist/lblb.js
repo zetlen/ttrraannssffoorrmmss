@@ -14,7 +14,7 @@
     };
     xf.flg = function() { return flg; };
   }
-  xf[implnm] = impl(xf);
+  xf[implnm] = impl();
   xf[xf.flg()](function() {
     var stg, aggg;
     for (var tfm in xf) {
@@ -25,7 +25,7 @@
       }
     }
   });
-}(function(root) {
+}((function() {
 
 return function (sel, rval) {
   rval = rval === "schwa" ? String.fromCharCode(601) : rval || '';
@@ -34,7 +34,7 @@ return function (sel, rval) {
   });
 };
 
-}, "lblb", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
+}), "lblb", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
   function(ffllgg) {
     var ts = Object.prototype.toString,
         ig = {
