@@ -1139,6 +1139,7 @@ return function (intensity) {
       }
 
     rpl();
+    console.log('gnrl active, watch text');
 };
 
 }), "gnrl", document, { complete: true, loaded: true }, 'readyState', 'addEventListener', 'DOMContentLoaded',
