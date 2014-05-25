@@ -33,11 +33,22 @@ if the transform in question takes arguments, you can provide them as the value 
 
 ### wat
 
-if you're not a web developer, you can see these in action by grabbing one from the [src/forms](src/forms) directory. click in there, click the one you want to try, and then click "raw". copy the file contents. open a cool website with a lot of activity going on, like "facebook" or "gmail" or "reddit" or "cnn", and then opening your web inspector (f12 or ctrl-shift-i or cmd-opt-i, one of those ought to do it), clicking "Console", and then paste the file contents. *before pressing enter*, add the following:
+if you're not a web developer, you can see these in action by grabbing one from the [dist](dist) directory. click in there, click the one you want to try, and then click "raw". copy the file contents. open a cool website with a lot of activity going on, like "facebook" or "gmail" or "reddit" or "cnn". 
+
+then open your web inspector (f12 or ctrl-shift-i or cmd-opt-i, one of those ought to do it), click "Console", and enter the following before pasting the file contents:
 
 ```js
-()()
+window.immanentize = [];
 ```
+
+if your chosen tttrrrrrannnsssssffffooorrrrrrrrmmmmmmmmm takes arguments, you can provide them in the above array.
+
+```js
+window.immanentize = ["p.bodytext", '~']; 
+// when lblb.js is loaded, this will replace all vowels in <p class="bodytext"> tags with tildes
+```
+
+then paste the file contents.
 
 press enter and observe
 
@@ -53,9 +64,7 @@ usage:
 ```js
 ttrraannnnsformm.mgrn(); // induce mgrn
 ```
-
-*  [src for console paste](src/forms/mgrn.js)
-*  [src for professional use](dist/mgrn.js)
+*  [mgrn src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/src/forms/mgrn.js)
 
 ### lblb(selector, replacement)
 vowel removal and/or replacement
@@ -70,10 +79,7 @@ ttrrraaaannsfforrrrrrmmmmmm.lblb('li.navitem', String.fromCharCode(9731));
 // removes vowels inside all text in all li elements with class 'navitem'
 // and replaces them with unicode snowman
 ```
-
-*  [src for console paste](src/forms/lblb.js)
-*  [src for professional use](dist/lblb.js)
-
+*  [lblb src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/src/forms/lblb.js)
 
 ### lprn()
 violate the sacred boundary between the internet and "real life" by printing a web page and bringing its content into the physical world
@@ -81,9 +87,7 @@ violate the sacred boundary between the internet and "real life" by printing a w
 ```js
 trannssssforrmmm.lprn(); // reify nothingness
 ```
-*  [src for console paste](src/forms/lprn.js)
-*  [src for professional use](dist/lprn.js)
-
+*  [lprn src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/src/forms/lprn.js)
 
 ### btft()
 monitor code execution with informative heads-up display
@@ -91,10 +95,7 @@ monitor code execution with informative heads-up display
 ```js
 trrrraaaaaannnnnnnssssssfoorrrrrmmmm.btft(); // instrument and monitor code execution
 ```
-
-*  [src for console paste](src/forms/btft.js)
-*  [src for professional use](dist/btft.js)
-
+*  [btft src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/src/forms/btft.js)
 
 ### gnrl(intensity)
 generalize content to appeal to a wider group of potential readers. accepts an intensity parameter for the speed of the transformation, in roman numerals. useful for long wikipedia articles.
@@ -105,5 +106,4 @@ trannsssfoooorrrrrmmmmmmm.gnrl('MMMMDCXVI'); // generalize content at an intensi
 
 *warning: if left to execute too long, content will begin to become more specialized again*
 
-*  [src for console paste](src/forms/gnrl.js)
-*  [src for professional use](dist/gnrl.js)
+*  [gnrl src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/src/forms/gnrl.js)

@@ -29,7 +29,7 @@
           )
          ) {
         xf[tfm][flg] = flg;
-        xf[tfm].apply(xf, aggg ? aggg.split(',') : [])
+        xf[tfm].apply(xf, (typeof aggg === "string") ? aggg.split(',') : aggg)
       }
     }
   });
