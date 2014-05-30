@@ -25,7 +25,7 @@
           !xf[tfm][flg] && 
           (
             (stg = d[qs]('script[src*="' + tfm + '"][' + iflg + ']')) && 
-            (aggg = stg[g](iflg)) || (aggg = this[iflg])
+            (aggg = stg[ga](iflg)) || (aggg = this[iflg])
           )
          ) {
         xf[tfm][flg] = flg;
