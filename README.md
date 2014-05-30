@@ -107,3 +107,11 @@ trannsssfoooorrrrrmmmmmmm.gnrl('MMMMDCXVI'); // generalize content at an intensi
 *warning: if left to execute too long, content will begin to become more specialized again*
 
 *  [gnrl src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/gnrl.js)
+
+### mnnw(intensity)
+liberate content to follow its desires. accepts an intensity parameter as an arccosine in radians and computes the intensity as a cosine. make sure to scroll to heat the blood
+
+```js
+ttrrraansffffffffooooooorrrrrrrrrrrrrm.mnnw(8.75); // untether content at an intensity of -0.7808
+```
+*  [mnnw src for console paste](https://raw.githubusercontent.com/zetlen/ttrraannssffoorrmmss/master/dist/mnnw.js)
