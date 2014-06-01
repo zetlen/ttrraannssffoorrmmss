@@ -1,6 +1,13 @@
 ttrraannssffoorrmmss
 ====================
 
+```
+15:38 < jrajav> What exactly
+15:39 < jrajav> Is the point of this
+15:39 < khmer> ars gratia artis
+15:40 < jrajav> More like ars paininthe arse
+```
+
 salient features of the browser DOM manipulated to demonstrate the futility of any kind of communication at all
 
 ## installation
